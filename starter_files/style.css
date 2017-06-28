@@ -12,3 +12,136 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+div {
+  background-color: white;
+}
+
+body {
+  background-image: url("img/pattern.jpg");
+  background-color: #dddddd;
+  margin: .5em 5em .5em 5em;
+  border: 5px solid #ffd24a;
+  border-radius: 10px;
+}
+
+#site_header {
+  background-color: #ff8523;
+  display: block;
+  padding: 30px;
+}
+
+nav a {
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 3px 3px 3px 3px;
+  border-spacing: 5px;
+  padding: 5px 15px 5px 15px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+#logo img {
+  width: auto;
+  height: 50px;
+}
+
+div div {
+  padding: 30px;
+}
+
+h2 {
+  color: #1fabe5;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h3 {
+  color: #1fabe5;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p a {
+  color: #1fabe5;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+ul li {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+section {
+  border-bottom: 10px solid #dddddd;
+  display: block;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #1fabe5;
+  font-size: 1.25em;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+thead tr td {
+  border: 1px solid black;
+  background-color: #1fabe5;
+}
+
+td img {
+  width: auto;
+  height: 40%;
+  padding: 15px;
+}
+
+div section form {
+  background-color: #eee;
+  display: block;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+div section form div {
+  background-color: #eee;
+  display: block;
+  padding: 30px;
+  border-radius: 10px;
+}
+.name {
+  background-color: #ff8523;
+  display: block;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+textarea {
+  border: 1px solid #1fabe5;
+  display: block;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  display: block;
+  padding: 15px 20px 15px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.25em;
+}
